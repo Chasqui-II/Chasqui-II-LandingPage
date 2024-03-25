@@ -858,7 +858,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #3f43fd;
+  color: #000000;
   float: left;
   width: 44px;
   height: 44px;
@@ -875,14 +875,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #010483;
+  color: #000000;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #0205a1;
+  color: #000000;
 }
 
 .contact .info .email,
@@ -893,7 +893,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #1acc8d;
+  background: #db013a;
   color: #fff;
 }
 
@@ -915,7 +915,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #1acc8d;
+  background: #db013a;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -923,11 +923,27 @@ section {
   border-radius: 50px;
 }
 
+#contact .button-message {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: 0.5s;
+  color: #fff;
+  background: #db013a;
+}
+
+#contact .button-message:hover {
+  background: #6f001c;
+}
 
 /* CTA Section */
 .cta-section {
-  background: #0205a1;
-  color: #1acc8d;
+  background: #000000;
+  color: #db013a;
 }
 
 .cta-section img{
@@ -935,7 +951,7 @@ section {
 }
 
 .cta-section h2 {
-  color: #1acc8d;
+  color: #db013a;
   font-size: 3rem;
   font-weight: 700;
 }
@@ -981,11 +997,11 @@ section {
   position: relative;
   text-align: center;
   transition: 0.3s background ease;
-  color: #0205a1;
+  color: #000000;
   line-height: 0;
 }
 .footer{
-  background: #0205a1;
+  background: #000000;
   color: #fff;
 }
 .social a span {
@@ -998,7 +1014,7 @@ section {
 
 .social a:hover {
   color: #fff;
-  background: #34e5a6;
+  background: #db013a;
 }
 
 .social a i {
