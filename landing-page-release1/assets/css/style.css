@@ -558,7 +558,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: #DDDDDD;
+  background: #000000;
   padding: 70px 0 60px;
 }
 
@@ -567,7 +567,7 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  background: #fff;
+
   margin-bottom: 50px; /* Separa los count-box abajooo */
   border-radius: 10px;
 }
@@ -578,7 +578,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 20px;
-  background: #db013a;
+  background: rgba(219, 1, 58, 0.62);
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -600,15 +600,20 @@ section {
 }
 
 .counts .count-box h3 {
-  color: #000000;
+  color: #fff;
   transition: ease-in-out 0.3s;
 }
 
 .counts .count-box p {
+  color: #fff;
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+}
+
+.counts .count-box:hover {
+  background: rgba(206, 211, 221, 0.13);
 }
 
 @media (min-width: 992px) {
