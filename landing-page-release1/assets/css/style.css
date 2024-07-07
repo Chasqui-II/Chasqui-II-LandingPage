@@ -1042,7 +1042,7 @@ section {
   transition: 0.4s;
   border-radius: 50px;
 }
-
+/*
 #contact .button-message {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -1054,7 +1054,7 @@ section {
   transition: 0.5s;
   color: #fff;
   background: #db013a;
-}
+}*/
 
 #contact .button-message:hover {
   background: #6f001c;
