@@ -88,6 +88,27 @@
     })
   });
 
+
+  let currentLanguage = 'es'; // Default language
+
+  function changeLanguage(lang) {
+    fetch(`${lang}.json`)
+        .then(response => response.json())
+        .then(data => {
+          document.querySelectorAll("[data-translate]").forEach(el => {
+            let key = el.getAttribute("data-translate");
+            let translation = data[key];
+            if (translation) {
+              el.textContent = translation;
+            }
+          });
+        });
+    currentLanguage = lang;
+  }
+
+  // Example usage: changeLanguage('en');
+
+
   new PureCounter();
 
 })()
