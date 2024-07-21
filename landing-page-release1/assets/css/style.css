@@ -886,6 +886,60 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Unete, Ayudanos, Invierte
+--------------------------------------------------------------*/
+#unete, #ayudanos, #invierte {
+  padding: 60px 0;
+}
+
+.unete {
+  background: #000000;
+  padding: 70px 0 60px;
+}
+
+
+#unete .btn-get-started {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: 0.5s;
+  color: #fff;
+  background: #db013a;
+}
+
+#unete .btn-get-started:hover {
+  background: #6f001c;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: #fff;
+}
+
+
+.section-title h3 {
+  padding-top: 50px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #db013a;
+  font-family: "Poppins", sans-serif;
+}
+
+.invierte {
+  background: rgba(179, 55, 55, 0.22);
+  background-image: url("https://th.bing.com/th/id/R.8975e7ac985840e65255cd88a1f87657?rik=PFxxLlv71xxGnw&riu=http%3a%2f%2feskipaper.com%2fimages%2fstar-background-2.jpg&ehk=jBvvM1TOe6rYDhDYX4zjX%2f4MNIU1z5QmLzkrdHbs7Vo%3d&risl=&pid=ImgRaw&r=0");
+}
+
+
+/*--------------------------------------------------------------
 # News
 --------------------------------------------------------------*/
 .news {
