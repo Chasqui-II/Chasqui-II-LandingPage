@@ -939,10 +939,8 @@ section {
 }
 
 .invierte {
-  /* background: rgba(179, 55, 55, 0.22);*/
-  background-image: url('../img/space.jpg');
-  background-size: cover;
-
+  position: relative;
+  overflow: hidden;
 }
 
 
