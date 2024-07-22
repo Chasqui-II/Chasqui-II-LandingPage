@@ -920,6 +920,11 @@ section {
   border: #fff;
 }
 
+.card-img-top{
+  padding: 20px;
+}
+
+
 
 .section-title h3 {
   padding-top: 50px;
@@ -934,8 +939,10 @@ section {
 }
 
 .invierte {
-  background: rgba(179, 55, 55, 0.22);
-  background-image: url("https://th.bing.com/th/id/R.8975e7ac985840e65255cd88a1f87657?rik=PFxxLlv71xxGnw&riu=http%3a%2f%2feskipaper.com%2fimages%2fstar-background-2.jpg&ehk=jBvvM1TOe6rYDhDYX4zjX%2f4MNIU1z5QmLzkrdHbs7Vo%3d&risl=&pid=ImgRaw&r=0");
+  /* background: rgba(179, 55, 55, 0.22);*/
+  background-image: url('../img/space.jpg');
+  background-size: cover;
+
 }
 
 
