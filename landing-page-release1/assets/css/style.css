@@ -68,7 +68,6 @@ h6 {
 
 #header.header-scrolled {
   background: rgb(0, 0, 0, 0.7);
-  /*-------------------------------transparencia-----------*/
   height: 70px;
 }
 
@@ -320,7 +319,6 @@ h6 {
 
 }
 
-
 #hero {
   width: 100%;
 
@@ -346,7 +344,6 @@ h6 {
   transform: translate(-50%, -50%);
 }
 
-/* Opcional: ajusta el contenido sobre el video */
 #hero .hero-container {
   position: relative;
   z-index: 1;
@@ -358,7 +355,7 @@ h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad según sea necesario */
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: -1;
 }
 
@@ -434,81 +431,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
-.about {
-  padding: 40px 0 0 0;
-}
-.icon-boxes {
-  background-color: white;
-}
-.about .icon-boxes h3 {
-  font-size: 28px;
-  font-weight: 700;
-  color: #151547;
-  margin-bottom: 15px;
-}
-
-.about .icon-box {
-  margin-top: 40px;
-}
-
-.about .icon-box .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 64px;
-  height: 64px;
-  border: 2px solid #db013a;
-  border-radius: 50px;
-  transition: 0.5s;
-}
-
-.about .icon-box .icon i {
-  color: #db013a;
-  font-size: 32px;
-}
-
-.about .icon-box:hover .icon {
-  background: #db013a;
-  border-color: #db013a;
-}
-
-.about .icon-box:hover .icon i {
-  color: #fff;
-}
-
-.about .icon-box .title {
-  margin-left: 85px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-
-.about .icon-box .title a {
-  color: #343a40;
-  transition: 0.3s;
-}
-
-.about .icon-box .title a:hover {
-  color: #db013a;
-}
-
-.about .icon-box .description {
-  margin-left: 85px;
-  line-height: 24px;
-  font-size: 14px;
-}
-
-.about img {
-  position: relative;
-  margin-top: 50px;
-  max-height: 500px;
-}
-
-/*--------------------------------------------------------------
-# Features
+# Features - Areas
 --------------------------------------------------------------*/
 .features .icon-box {
 
@@ -551,7 +474,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Counts
+# Counts - Subsistemas
 --------------------------------------------------------------*/
 .counts {
   background: #000000;
@@ -613,101 +536,19 @@ section {
 }
 
 @media (min-width: 992px) {
-  /*.counts .row {
-    display: flex;
-    justify-content: space-between;  Alinear los count-box al principio y al final de la fila
-  }*/
+
   .counts .count-box {
-    margin-right: 30px; /* Agregar margen derecho entre los count-box */
+    margin-right: 30px;
   }
 
   .counts .count-box:nth-child(4n) {
-    margin-right: 0; /* Eliminar margen derecho de la última columna en cada fila */
+    margin-right: 0;
   }
-  /*
-    .counts .count-box:nth-last-child(-n+2) {
-      margin-right: auto;  Establecer margen derecho automático en los dos últimos count-box
-    margin-left: auto; /* Establecer margen izquierdo automático en los dos últimos count-box
-  }*/
+  /
 }
-
 
 /*--------------------------------------------------------------
-# Details
---------------------------------------------------------------*/
-.details .content + .content {
-  margin-top: 100px;
-}
-
-.details .content h3 {
-  font-weight: 600;
-  font-size: 26px;
-  color: #010483;
-}
-.detail-carrier {
-  margin-top: 100px;
-}
-.details .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.details .content ul li {
-  padding-bottom: 10px;
-}
-
-.details .content ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #db013a;
-}
-
-.details .content p:last-child {
-  margin-bottom: 0;
-}
-
-/* CTA Section */
-.cta-section {
-  background: #0205a1;
-  color: #db013a;
-}
-
-.cta-section img{
-  height: 80px;
-}
-
-.cta-section h2 {
-  color: #db013a;
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-@media screen and (max-width: 768px) {
-  .cta-section h2 {
-    font-size: 2rem;
-  }
-}
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-.team {
-  background: #fff;
-}
-
-.team .member {
-  text-align: center;
-  margin-bottom: 80px;
-  position: relative;
-}
-
-.team .member .pic {
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-
-/*--------------------------------------------------------------
-# Testimonials
+# Testimonials / Members
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
@@ -806,46 +647,6 @@ section {
   }
 }
 
-.team .member img {
-  transition: all ease-in-out 0.4s;
-}
-
-.team .member:hover img {
-  transform: scale(1.1);
-}
-
-.team .member .member-info {
-  position: absolute;
-  bottom: -80px;
-  left: 0;
-  right: 0;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 15px 0;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.team .member h4 {
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #01036f;
-  position: relative;
-  padding-bottom: 10px;
-}
-
-.team .member h4::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #0d12fc;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
-
-
 /*--------------------------------------------------------------
 # Partners
 --------------------------------------------------------------*/
@@ -923,8 +724,6 @@ section {
 .card-img-top{
   padding: 20px;
 }
-
-
 
 .section-title h3 {
   padding-top: 50px;
@@ -1119,28 +918,6 @@ section {
 
 #contact .button-message:hover {
   background: #6f001c;
-}
-
-/* CTA Section */
-.cta-section {
-  background: #000000;
-  color: #db013a;
-}
-
-.cta-section img{
-  height: 80px;
-}
-
-.cta-section h2 {
-  color: #db013a;
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-@media screen and (max-width: 768px) {
-  .cta-section h2 {
-    font-size: 2rem;
-  }
 }
 
 
