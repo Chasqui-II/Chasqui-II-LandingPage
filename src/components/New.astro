@@ -1,0 +1,10 @@
+---
+const { title, description, img, href } = Astro.props 
+---
+
+<div class="col-md-5 news-item small-news upd">
+    <img src={`/assets/img/news/${img}.png`} alt="Noticia 1" class="news-img">
+    <h5 class="news-title update">{ title }</h5>
+    <p class="news-description">{ description }</p>
+    <a href={href} class="read-more">Leer Más →</a>
+</div>

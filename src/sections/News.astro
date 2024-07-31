@@ -1,0 +1,35 @@
+---
+import New from "../components/New.astro";
+
+---
+<section id="news" class="news">
+    <div class="container">
+      <div class="section-title update" data-aos="fade-up">
+        <p>Noticias</p>
+      </div>
+      <div class="section-title" data-aos="fade-up">
+        <h2>Próximamente</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-7">
+          <!-- Update New.astro component to make this new able to use the component -->
+          <div class="news-item large-news upd">
+            <img src="/assets/img/news/6.png" alt="Noticia Principal" class="news-img-2">
+            <h5 class="news-title">FLIT</h5>
+            <p class="news-description">Chasqui II presente en el FLIT Arequipa el 12 y 13 de julio. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <a href="#" class="read-more">Leer Más →</a>
+          </div>
+          <!-- this new -->
+        </div>
+        <div class="col-lg-5">
+          <div class="row">
+            <New title="Academia" description="Conferencia presentada por la UNI - ONU." img="2" href="#" />
+            <New title="UNITEC" description="Chasqui II presente en UNITEC el 16 y 17 de noviembre." img="3" href="#" />
+            <New title="APSCO" description="Etapas en la competencia de APSCO, informe de Chasqui II." img="4" href="#" />
+            <New title="IAC" description="Presentación de 10 papers en el congreso de Milan - Italia." img="5" href="#" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
