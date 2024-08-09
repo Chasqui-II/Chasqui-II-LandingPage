@@ -229,22 +229,17 @@ body {
   .navbar-mobile .getstarted:focus {
     margin: 15px;
   }
-  
+
   .logo-centered{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centra el logo horizontal y verticalmente */
-    z-index: 10; /* Asegura que esté por encima de otros elementos */
+    transform: translate(-50%, -50%); 
+    z-index: 10; 
   }
 
   .navbar-appears {
     animation: fadeIn 1s;
-  }
-
-  @keyframes fadeOut {
-    0% { opacity: 1; }
-    100% { opacity: 0; }
   }
   
   @keyframes fadeIn {
