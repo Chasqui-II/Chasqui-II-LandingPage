@@ -230,6 +230,29 @@ body {
     margin: 15px;
   }
   
+  .logo-centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra el logo horizontal y verticalmente */
+    z-index: 10; /* Asegura que esté por encima de otros elementos */
+  }
+
+  .navbar-appears {
+    animation: fadeIn 1s;
+  }
+
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  
   /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
