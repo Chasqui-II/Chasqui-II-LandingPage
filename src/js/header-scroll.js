@@ -5,9 +5,9 @@
       return document.querySelector(el.trim());
     }
   
-    let selectHeader = select('#header');
-    let selectLogo = select('.logo');
-    let selectNavbar = select('#navbar');
+    const selectHeader = select('#header');
+    const selectLogo = select('.logo');
+    const selectNavbar = select('#navbar');
   
     if (selectHeader && selectLogo && selectNavbar) {
       const handleScroll = () => {
