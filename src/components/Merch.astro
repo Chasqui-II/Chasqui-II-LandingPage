@@ -1,0 +1,11 @@
+---
+const { title, price, img } = Astro.props;
+---
+<div class="col-md-4 mb-4 mb-md-0">
+  <div class="card" data-aos="zoom-in" data-aos-delay="50" style="border-radius: 20px;">
+    <img src={`/assets/img/merch/${img}.png`} class="card-img-top" alt={title}>
+    <div class="card-body">
+      <h5 class="card-title"><strong>{title}</strong></h5>
+      <p class="card-text">Precio: S/. {price}</p>
+   </div>
+</div>

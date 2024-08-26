@@ -1,0 +1,24 @@
+---
+import Testimonial from "../components/Testimonial.astro";
+
+---
+<section id="testimonials" class="testimonials">
+    <div class="container">
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
+          <Testimonial 
+            name="Raul Figueroa" 
+            position="Director" 
+            testimonial="Hay que darnos un espacio, para el espacio." 
+            img="usuario"/>
+          <Testimonial 
+            name="Jairo Solano" 
+            position="Coordinador" 
+            testimonial="Lorem ipsum dolor sit amet, consectetur adipiscing elit." 
+            img="usuario"/>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  

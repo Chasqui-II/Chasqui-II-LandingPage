@@ -1,0 +1,23 @@
+---
+import CountItem from "../components/CountItem.astro"
+---
+<section id="counts" class="counts">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up" style="padding-bottom: 80px;">
+        <h2>Subsistemas</h2>
+      </div>
+      <div class="row" data-aos="fade-up">
+        <CountItem icon="bi bi-box" title="Carga útil" description="Incluye los instrumentos y equipos necesarios para cumplir con la misión específica del satélite, como cámaras o sensores científicos." />
+        <CountItem icon="bi bi-laptop" title="Computadora a bordo" description="Controla las funciones del satélite, manejando la complejidad de la misión según criterios de costo, seguridad, autonomía e interacciones." />
+        <CountItem icon="bi bi-broadcast-pin" title="Comunicaciones" description="Estudia y optimiza sistemas de transmisión y recepción de datos entre el satélite y la estación terrena, asegurando la eficacia y adaptación a la misión." />
+        <CountItem icon="bi bi-thermometer-half" title="Control térmico" description="Gestiona la temperatura mediante el análisis de factores y materiales especiales que mantienen el satélite en un rango de temperatura adecuado." />
+        <CountItem icon="bi bi-compass" title="Determinación y control de actitud" description="Mantiene la posición y orientación adecuada del satélite en órbita usando sensores, mecanismos y algoritmos para corregir desviaciones." />
+        <CountItem icon="fa-solid bi bi-house" title="Estación terrena" description="Utiliza componentes COTS y tecnología de radio amateur para establecer enlaces de comunicación, facilitando la transmisión de datos y el control desde la Tierra." />
+        <CountItem icon="bi bi-gear" title="Estructura mecánica" description="Diseña y fabrica el marco del CubeSat, permitiendo modificaciones específicas para garantizar la conectividad de todos los sistemas y la precisión." />
+        <CountItem icon="bi bi-building" title="Manufactura espacial" description="Incluye los procesos y técnicas necesarios para la construcción de los componentes, garantizando la calidad, precisión y resistencia de los materiales." />
+        <CountItem icon="bi bi-lightning-charge" title="Potencia" description="Encargado de la generación, regulación y distribución de la energía, mediante paneles solares, baterías y reguladores. Garantiza el funcionamiento continuo." />
+        <CountItem icon="bi bi-fire" title="Propulsión" description="Controla el movimiento y la posición del CubeSat en el espacio. Incluye sistemas que ajustan la órbita del satélite manteniendo la trayectoria deseada." />
+      </div>
+    </div>
+  </section>
+  

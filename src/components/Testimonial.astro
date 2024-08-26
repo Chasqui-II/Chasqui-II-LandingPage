@@ -1,0 +1,11 @@
+---
+const { name, position, testimonial, img } = Astro.props
+---
+<div class="swiper-slide">
+    <div class="testimonial-item">
+      <img src={`/assets/img/directiva/${img}.jpg`} class="testimonial-img" alt={name}>
+      <h3>{ name }</h3>
+      <h4>{ position }</h4>
+      <p>{ testimonial }</p>
+    </div>
+  </div>
